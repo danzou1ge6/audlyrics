@@ -121,9 +121,6 @@ async fn handle(
             let mut state = state.lock().unwrap();
 
             match state.update() {
-                Err(Error::AudError(e)) => {
-                    panic!("{:?}", e);
-                },
                 Err(e) => {
                     eprintln!("{}: {:?}", &state.song, e);
                 },
