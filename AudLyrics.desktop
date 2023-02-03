@@ -9,4 +9,4 @@ Categories=AudioVideo;Audio;Player;
 Exec=audlyrics
 TryExec=audlyrics
 StartupNotify=false
-Terminal=true
+Terminal=false

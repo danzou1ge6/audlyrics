@@ -9,8 +9,8 @@ use std::sync::{Arc, Mutex};
 
 use tokio::process::Command;
 
-use audlyric_server::lyrics::{Lyrics, Line, ParseLyricError};
-use audlyric_server::aud_inter as aud;
+use audlyrics::lyrics::{Lyrics, Line, ParseLyricError};
+use audlyrics::aud_inter as aud;
 
 extern crate derive_more;
 use derive_more::From;
