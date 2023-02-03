@@ -9,3 +9,6 @@ edition = "2021"
 hyper = { version = "0.14", features = ["full"] }
 tokio = { version = "1", features = ["full"] }
 derive_more ={ version = "0.99.0", features = ["from"] }
+
+[profile.release]
+lto = true
