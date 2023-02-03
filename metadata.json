@@ -1,0 +1,51 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "yu_liukun@outlook.com",
+                "Name": "LiuKunYu"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Show lyrics when use Audacious",
+        "Description[zh_CN]": "在使用 Audacious 时显示歌词",
+        "EnabledByDefault": true,
+        "Icon": "applications-system",
+        "Id": "org.kde.plasma.audlyrics",
+        "License": "GPL-3.0",
+        "Name": "audlyrics",
+        "Name[bg]": "audlyrics",
+        "Name[ca@valencia]": "audlyrics",
+        "Name[ca]": "audlyrics",
+        "Name[cs]": "audlyrics",
+        "Name[en_GB]": "audlyrics",
+        "Name[es]": "audlyrics",
+        "Name[eu]": "audlyrics",
+        "Name[fi]": "audlyrics",
+        "Name[fr]": "audlyrics",
+        "Name[ia]": "audlyrics",
+        "Name[id]": "audlyrics",
+        "Name[it]": "audlyrics",
+        "Name[ko]": "audlyrics",
+        "Name[nl]": "audlyrics",
+        "Name[nn]": "audlyrics",
+        "Name[pl]": "audlyrics",
+        "Name[pt]": "audlyrics",
+        "Name[pt_BR]": "audlyrics",
+        "Name[ru]": "audlyrics",
+        "Name[sl]": "audlyrics",
+        "Name[sv]": "audlyrics",
+        "Name[tr]": "audlyrics",
+        "Name[uk]": "audlyrics",
+        "Name[vi]": "audlyrics",
+        "Name[x-test]": "xxaudlyricsxx",
+        "Name[zh_CN]": "audlyrics",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/LiYulin-s/org.kde.plasma.audlyrics"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

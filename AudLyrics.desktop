@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AudLyrics
+GenericName=Music Player
+Comment=Listen to music
+Icon=audacious
+Categories=AudioVideo;Audio;Player;
+Exec=audlyrics
+TryExec=audlyrics
+StartupNotify=false
+Terminal=true
